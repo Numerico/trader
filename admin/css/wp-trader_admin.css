@@ -1,0 +1,138 @@
+#table-container {    
+	display: table;	border:0px;
+}
+#table-header  {	
+	display: table-header-group;	
+	border:0px;
+}
+#row  {	
+	display: table-row;	
+	border:0px;
+}
+/*#left, #right, #middle {    
+	display: table-cell;	
+	padding:2px 4px 4px 4px;	
+	border:1px solid #666;	
+	-moz-border-radius:0 0 0 0;
+}*/
+body .ui-content { white-space: normal; overflow: visible; }
+.ui-collapsible-heading { font-size: 25px; width: 95%; display: block; margin: 0 -8px; padding: 0; border-width: 0 0 1px 0; position: relative; }
+.ui-block-a { padding: 6px 0px 0px 0px; }
+.wptrader_info_icon { float: left; padding-right: 6px; }
+#simpleraw { box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); border-radius: 1em 1em 1em 1em; }
+.ui-field-contain  label.ui-slider { width: 35%; }
+.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text, .ui-field-contain .ui-input-search { display: inline-block; margin-left: 20%; width: 40%; }
+.ui-field-contain .ui-controlgroup-label { width: 35%;}
+.wptrader_label_title { padding-top: 10px; }
+.wp_trader_settings { display:none; }
+.submit_wp_trader { float:left;  padding:0px 40%; }
+#footer { display: none; }
+li, dd {
+    margin-bottom: 6px;
+}
+.ui-controlgroup li {
+    list-style: none outside none;
+}
+.ui-state-highlight { width: 200px; height: 50px; margin-bottom:5px; background: #fff2a8; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background: #e6e6e6/*{bgColorDefault}*/ url(images/jquery_ui_images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #555555/*{fcDefault}*/; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555/*{fcDefault}*/; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999/*{borderColorHover}*/; background: #dadada/*{bgColorHover}*/ url(images/jquery_ui_images/ui-bg_glass_75_dadada_1x400.png)/*{bgImgUrlHover}*/ 50%/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcHover}*/; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #212121/*{fcHover}*/; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa/*{borderColorActive}*/; background: #ffffff/*{bgColorActive}*/ url(images/jquery_ui_images/ui-bg_glass_65_ffffff_1x400.png)/*{bgImgUrlActive}*/ 50%/*{bgActiveXPos}*/ 50%/*{bgActiveYPos}*/ repeat-x/*{bgActiveRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcActive}*/; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121/*{fcActive}*/; text-decoration: none; }
+.ui-widget :active { outline: none; }
+div.wptrader_sortable_left {
+    clear: left;
+    float: left;
+    margin-right: -325px;
+    width: 100%;
+}
+div#wptrader_left {
+    margin-left: 5px;
+    margin-right: 325px;
+}
+div.wptrader_sortable_head {
+    border-style: solid;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.wptrader_sortable_head {
+    border-color: #DFDFDF;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    color: #464646;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.wptrader_sortable_head {
+    background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+div.description {
+    margin: 0 12px 12px;
+	height: 75px;
+}
+div.description {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+p.description {
+    margin: 2px 0 5px;
+}
+.description {
+    color: #666666;
+}
+.wptrader_sortable_column_holder {
+    background-color: #FCFCFC;
+    border-color: #DFDFDF;
+}
+.wptrader_sortable_column_holder {
+    padding: 7px 5px 0;
+}
+.wptrader_sortable_column_holder {
+	height: 250px;
+}
+#wptrader_sortable_column_list {
+    border: 0 0;
+    float: left;
+    width: 200px;
+}
+div.wptrader_column_title_head {
+    border-style: solid;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+	margin-bottom:5px;
+    border-width: 1px;
+    cursor: move;
+    font-size: 13px;
+	width: 200px;
+	height: 50px;
+}
+.wptrader_column_title_head {
+    border-color: #DFDFDF;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    color: #464646;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.wptrader_column_title_head {
+    background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+div.wptrader_sortable_right {
+    clear: right;
+    float: right;
+    width: 300px;
+}
+div#wptrader_right {
+    margin: 0 auto;
+    width: 285px;
+}
+br.clear {
+    height: 2px;
+    line-height: 2px;
+}
+.clear {
+    clear: both;
+}

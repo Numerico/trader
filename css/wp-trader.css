@@ -1,0 +1,32 @@
+div.updated, .wrap div.error {
+    margin: 5px 0 15px;
+}
+div.updated, .login .message {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+}
+div.updated, div.error {
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px 15px 2px;
+    padding: 0 0.6em;
+}
+/* TORRENTTABLE() */
+.ttable_headouter { border-collapse: collapse; }
+.ttable_headinner {	border-collapse: collapse; border:1px solid #9999CC; }
+.ttable_head { font-family: 'Verdana'; color: #000000; font-size: 8pt; background: #66CCFF; text-align: center;}
+.ttable_col1 { font-family: 'Verdana'; border:1px solid #9999CC; font-size: 8pt; background: #F7F7F7; }
+.ttable_col2 { font-family: 'Verdana'; border:1px solid #9999CC; font-size: 8pt; background: #ECECEC; }
+.ttable_colx { font-family: 'Verdana'; border:1px solid #9999CC; font-size: 8pt; background: #ECECEC; }
+/* Div Table */
+#div_table {
+    display: table;
+}
+#div_table_row  {
+	display: table-row;
+}
+
+#div_table_left, #div_table_right, #div_table_middle {
+    display: table-cell;
+}
